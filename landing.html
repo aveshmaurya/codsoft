@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white shadow-md mb-8">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="flex items-center">
+                <img src="./home_banner.jpeg" alt="Logo" class="mr-3" width="50" height="50">
+                <span class="text-xl font-bold">Landing Page</span>
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#" class="text-gray-700 hover:text-gray-900">Home</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Blog</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Page</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Services</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Testimonials</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Contact</a>
+            </nav>
+            <div class="hidden md:flex items-center space-x-4">
+                <a href="#" class="text-gray-700 hover:text-gray-900"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-gray-700 hover:text-gray-900"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-gray-700 hover:text-gray-900"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-gray-700 hover:text-gray-900"><i class="fab fa-instagram"></i></a>
+                <a href="tel:+1234567890" class="text-gray-700 hover:text-gray-900">+1-234-567-890</a>
+                <a href="mailto:email@example.com" class="text-gray-700 hover:text-gray-900">email@example.com</a>
+                <a href="#" class="bg-pink-500 text-white px-4 py-2 rounded">Request a Quote</a>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="relative mb-8">
+        <img src="./home_banner.jpeg" alt="Hero Image" class="w-full h-96 object-cover" width="1920" height="600">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center text-white px-4">
+            <h1 class="text-4xl font-bold mb-4">We Are Creative</h1>
+            <h2 class="text-2xl mb-6">Creative Digital Agency</h2>
+            <p class="mb-6">Lorem ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it.</p>
+            <div class="space-x-4">
+                <a href="#" class="bg-pink-500 text-white px-4 py-2 rounded">Read More</a>
+                <a href="#" class="bg-gray-800 text-white px-4 py-2 rounded">Request a Quote</a>
+            </div>
+        </div>
+    </section>
+    <!-- Features Section -->
+    <section class="bg-gradient-to-r from-orange-400 to-pink-500 text-white py-12 mb-8 px-4">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+            <div class="flex-1 mb-6 md:mb-0">
+                <i class="fas fa-rocket text-4xl mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Launch Business</h3>
+                <p>Lorem ipsum has been the industry's standard dummy text.</p>
+            </div>
+            <div class="flex-1 mb-6 md:mb-0">
+                <i class="fas fa-headset text-4xl mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Online Support Team</h3>
+                <p>Lorem ipsum has been the industry's standard dummy text.</p>
+            </div>
+            <div class="flex-1">
+                <i class="fas fa-clock text-4xl mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Time Management</h3>
+                <p>Lorem ipsum has been the industry's standard dummy text.</p>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Section -->
+    <section class="py-12 mb-8 px-4">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-6 md:mb-0">
+                <h2 class="text-3xl font-bold mb-4">About Us</h2>
+                <p class="mb-4">15 years, we passionate about achieving better results for our clients</p>
+                <p class="mb-4">Lorem ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <a href="#" class="bg-pink-500 text-white px-4 py-2 rounded">Read More</a>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="./person.png" alt="About Us Image" class="rounded-lg shadow-lg" width="400" height="400">
+            </div>
+        </div>
+    </section>
+    <!-- Our Services Section -->
+    <section class="py-12 bg-gray-100 mb-8 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-12">Our Services</h2>
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex-1 mb-6 md:mb-0">
+                    <img src="./1.jpg" alt="User Experience" class="mb-4 rounded-lg shadow-lg" width="300" height="200">
+                    <h3 class="text-xl font-bold mb-2">User Experience</h3>
+                </div>
+                <div class="flex-1 mb-6 md:mb-0">
+                    <img src="./2.jpg" alt="Creative Design" class="mb-4 rounded-lg shadow-lg" width="300" height="200">
+                    <h3 class="text-xl font-bold mb-2">Creative Design</h3>
+                </div>
+                <div class="flex-1">
+                    <img src="./home_banner.jpeg" alt="Retina Ready" class="mb-4 rounded-lg shadow-lg" width="300" height="200">
+                    <h3 class="text-xl font-bold mb-2">Retina Ready</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
